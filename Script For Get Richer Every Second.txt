@@ -1,0 +1,101 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Get Richer Every Second","BloodTheme")
+
+---Tabs
+ 
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Free Roblox Scripts")
+local Tab2 = window:NewTab("Sup")
+local Tab2Section = Tab2:NewSection("Sup is word")
+local Tab1Section = Tab1:NewSection("Made By biel17125")
+local Tab1Section = Tab1:NewSection("freerobloxscripts.com")
+ 
+---Buttons
+
+Tab1Section:NewToggle("Auto Collect Coin (World 1)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin1 = true
+while _G.collectcoin1 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(595, 385, 58)
+wait(6.5)
+end
+     else
+_G.collectcoin1 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 2)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin2 = true
+while _G.collectcoin2 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(868, 477, 61)
+wait(6.5)
+end
+     else
+_G.collectcoin2 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 3)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin3 = true
+while _G.collectcoin3 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1121, 598, 58)
+wait(6.5)
+end
+     else
+_G.collectcoin3 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 4)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin4 = true
+while _G.collectcoin4 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1386, 753, 60)
+wait(6.5)
+end
+     else
+_G.collectcoin4 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 5)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin5 = true
+while _G.collectcoin5 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1638, 927, 64)
+wait(6.5)
+end
+     else
+_G.collectcoin5 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 6)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin6 = true
+while _G.collectcoin6 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1903, 1116, 71)
+wait(6.5)
+end
+     else
+_G.collectcoin6 = false
+end
+end)
+
+Tab1Section:NewToggle("Auto Collect Coin (World 7)", "Collect coin automatically", function(state)
+    if state then
+_G.collectcoin7 = true
+while _G.collectcoin7 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2252, 1405, 73)
+wait(6.5)
+end
+     else
+_G.collectcoin7 = false
+end
+end)
+
+Tab2Section:NewButton("Keyboard","Pc Like Keyboard",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
